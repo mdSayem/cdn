@@ -1,3 +1,31 @@
+/*Custom CSS*/
+.calc-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.calc-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.calc-full {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.calc-half {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+/*End Here*/
 .irs {
   position: relative;
   display: block;
@@ -168,7 +196,7 @@
 .irs--round .irs-bar {
   top: 16px;
   height: 7px;
-  background-color: #237AFF;
+  background-color: #30CD9A;
 }
 
 .irs--round .irs-bar--single {
@@ -185,7 +213,7 @@
   top: 10px;
   width: 18px;
   height: 18px;
-  border: 3px solid #237AFF;
+  border: 3px solid #30CD9A;
   background-color: white;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 255, 0.3);
@@ -214,7 +242,7 @@
   line-height: 1;
   text-shadow: none;
   padding: 3px 5px;
-  background-color: #237AFF;
+  background-color: #30CD9A;
   color: white;
   border-radius: 4px;
 }
@@ -232,7 +260,7 @@
   margin-left: -3px;
   overflow: hidden;
   border: 3px solid transparent;
-  border-top-color: #237AFF;
+  border-top-color: #30CD9A;
 }
 
 .irs--round .irs-grid {
@@ -261,7 +289,7 @@
 }
 
 .calculator .page-title {
-  color: #237AFF;
+  color: #30CD9A;
   font-weight: 700;
 }
 
@@ -293,17 +321,19 @@
 
 .calculator .calculator_result {
   background: #FDFAFA;
+  border: 1px solid #dee2e6!important;
+  padding: 35px;
 }
 
 .calculator .calculator_result .card-title {
-  color: #237AFF;
+  color: #30CD9A;
 }
 
 .calculator .calculator_result #calc_result {
   font-size: 3.3rem;
   font-weight: 300;
   line-height: 1.2;
-  color: #237AFF;
+  color: #30CD9A;
   margin-bottom: 12px;
 }
 
