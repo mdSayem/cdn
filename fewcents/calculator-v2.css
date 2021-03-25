@@ -379,6 +379,12 @@ h3.value_heading {
     max-width: 100%;
   }
   .card {
-    margin-top: 30px
+    margin-top: 30px;
+  }
+  #calc_result {
+    font-size: 44px;
+  }
+  .calc-h2 {
+    font-size: 34px;
   }
 }
