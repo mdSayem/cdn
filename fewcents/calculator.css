@@ -28,7 +28,39 @@
   box-sizing: border-box;
 }
 
-
+.calc-h2 {
+  font-family: 'PT Sans', sans-serif;
+  color: #30CD9A;
+  font-size: 42px;
+  margin-bottom: 0;
+  line-height: 120%;
+}
+.calc-text {
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.text-sm-heading {
+  font-family: 'PT Sans', sans-serif;
+}
+h3.value_heading {
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 5px;
+  font-size: 28px;
+  margin-top: 10px;
+}
+.card-title {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+.card-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+#calc_result {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 64px;
+}
 
 /*End Here*/
 .irs {
@@ -335,23 +367,13 @@
 }
 
 .calculator .calculator_result #calc_result {
-  font-size: 3.3rem;
   font-weight: 300;
   line-height: 1.2;
   color: #30CD9A;
   margin-bottom: 12px;
 }
 
-@media only screen and (max-width: 767px) {
-  .calc-full {
-    flex: 0 0 100%;
-    max-width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-  }
+@media (max-width: 767px) {
   .calc-half {
     flex: 0 0 100%;
     max-width: 100%;
