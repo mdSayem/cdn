@@ -30,7 +30,7 @@
 
 .calc-h2 {
   font-family: 'PT Sans', sans-serif;
-  color: #30CD9A;
+  color: #000;
   font-size: 42px;
   margin-bottom: 0;
   line-height: 120%;
@@ -233,7 +233,7 @@ h3.value_heading {
 .irs--round .irs-bar {
   top: 16px;
   height: 7px;
-  background-color: #30CD9A;
+  background-color: #237AFF;
 }
 
 .irs--round .irs-bar--single {
@@ -250,7 +250,7 @@ h3.value_heading {
   top: 10px;
   width: 18px;
   height: 18px;
-  border: 3px solid #30CD9A;
+  border: 3px solid #237AFF;
   background-color: white;
   border-radius: 50%;
   box-shadow: 0 1px 3px rgba(0, 0, 255, 0.3);
@@ -279,7 +279,7 @@ h3.value_heading {
   line-height: 1;
   text-shadow: none;
   padding: 3px 5px;
-  background-color: #30CD9A;
+  background-color: #237AFF;
   color: white;
   border-radius: 4px;
 }
@@ -297,7 +297,7 @@ h3.value_heading {
   margin-left: -3px;
   overflow: hidden;
   border: 3px solid transparent;
-  border-top-color: #30CD9A;
+  border-top-color: #237AFF;
 }
 
 .irs--round .irs-grid {
@@ -326,7 +326,7 @@ h3.value_heading {
 }
 
 .calculator .page-title {
-  color: #30CD9A;
+  color: #237AFF;
   font-weight: 700;
 }
 
@@ -363,13 +363,13 @@ h3.value_heading {
 }
 
 .calculator .calculator_result .card-title {
-  color: #30CD9A;
+  color: #237AFF;
 }
 
 .calculator .calculator_result #calc_result {
   font-weight: 300;
   line-height: 1.2;
-  color: #30CD9A;
+  color: #237AFF;
   margin-bottom: 12px;
 }
 
